@@ -11,8 +11,11 @@ Because of the spaces in the filename, I suspected this might involve the concep
 I tried searching the man page index using:
 
 *man -k metacharacters*
+
 *man -k quoting*
+
 *man -k wildcard*
+
 *apropos metacharacters*
 
 Unfortunately, these didn’t yield useful or directly relevant results. Most hits were related to unrelated topics like namespaces, and I couldn’t find anything explaining how to work with filenames containing spaces or special symbols.
@@ -33,7 +36,7 @@ With this knowledge, I tried the following commands:
 
 and 
 
-*cat "./--Spaces in this filename--"*
+*cat ./"--Spaces in this filename--"*
 
 Both worked correctly and revealed the password.
 
@@ -49,8 +52,8 @@ Later, I realized that the best source of information for this topic was the Bas
 
 Inside man bash, I found the DEFINITIONS and QUOTING sections particularly helpful. These sections provided key insights, such as:
 
-	*metacharacter: A character that, when unquoted, separates words. One of the following:
-		| & ; ( ) < > space tab newline*
+	metacharacter: A character that, when unquoted, separates words. One of the following:
+		| & ; ( ) < > space tab newline
 
 And further:
 
