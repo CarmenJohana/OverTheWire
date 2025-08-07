@@ -36,6 +36,6 @@ We now employ ls to show the files available -in this case, we should see readme
 
 Finally, *cat readme* prints the contents of readme, which contains the password for Bandit1.
 
-Result
+# Result
 
 Password we are looking for is: ZjLjTmM7FvvyRnrb2rfNWOZOTa6ip5If
