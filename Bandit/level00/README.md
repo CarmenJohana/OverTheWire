@@ -38,4 +38,4 @@ Finally, *cat readme* prints the contents of readme, which contains the password
 
 # Result
 
-Password we are looking for is: ZjLjTmM7FvvyRnrb2rfNWOZOTa6ip5If
+Password we are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
