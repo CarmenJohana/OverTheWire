@@ -2,7 +2,9 @@
 
 In this level, the password is stored in a file within the *inhere* directory.
 
-After changing into this directory and running:
+# Commands used
+
+After changing into the *inhere* directory and running:
 
 *ls -a*
 
