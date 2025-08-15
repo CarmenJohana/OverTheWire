@@ -19,14 +19,23 @@ The relevant output from the above command was:
 
 *
 ========== the
+
 D========== password
+
  U1-
+
 w========== is
+
  QO'
+
 yZ X
+
 ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
  Bn`
+
 ^ j+
+
 *
 
 # Result
