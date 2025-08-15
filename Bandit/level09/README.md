@@ -17,7 +17,6 @@ Here, *strings data.txt* extracts readable text from the file, *grep -E* enables
 
 The relevant output from the above command was:
 
-*
 ========== the
 
 D========== password
@@ -35,8 +34,6 @@ yZ X
  Bn`
 
 ^ j+
-
-*
 
 # Result
 
