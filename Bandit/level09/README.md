@@ -13,7 +13,7 @@ The command was:
 
 *strings data.txt | grep -E '([=]* [a-zA-Z0-9]+)'*
 
-Here, *strings data.txt* extracts readable text from the file, *grep -E* enables extended regular expressions and *'([=]* [a-zA-Z0-9]+)'* matche strings preceded by zero or more = characters, followed by a space and then alphanumeric characters (the likely password).
+Here, *strings data.txt* extracts readable text from the file, *grep -E* enables extended regular expressions and *'([=]* [a-zA-Z0-9]+)'* matches strings preceded by zero or more = characters, followed by a space and then alphanumeric characters (the likely password).
 
 The relevant output from the above command was:
 
