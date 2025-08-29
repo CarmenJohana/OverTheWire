@@ -52,7 +52,7 @@ After each decompression, I ran file <filename> again to determine the next step
 
 After several layers, one file turned out to be plain ASCII text. Viewing it gave the password.
 
-## Result
+# Result
 
 The password for the next level is:
 
