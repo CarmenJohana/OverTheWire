@@ -24,7 +24,7 @@ The file is a hexdump, so the first step is to convert it back into its original
 
 *xxd -r data.txt > file1*
 
-## Identify file type
+## 3. Identify file type
 
 The file command helps detect the compression format:
 
