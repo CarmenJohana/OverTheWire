@@ -15,7 +15,9 @@ This creates a new, randomly named directory where you can freely copy and manip
 ## 1. Set up a workspace
 
 *mktemp -d*
+
 *cd /tmp/<generated_directory>*
+
 *cp /home/bandit12/data.txt .*
 
 ## 2. Reverse the hexdump
@@ -38,6 +40,7 @@ Depending on the file type, I used the appropriate tool:
 
  - For gzip:
 	*mv file1 file1.gz*
+
 	*gzip -d file1.gz*
 
  - For bzip2:
@@ -56,4 +59,4 @@ After several layers, one file turned out to be plain ASCII text. Viewing it gav
 
 The password for the next level is:
 
-*FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAnv*
+*FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn*
