@@ -29,4 +29,3 @@ _ssh -i /home/bandit13/sshkey.private bandit14@localhost -p 2220_
 	- My initial attempt failed because I gave a wrong path (I forgot the leading / — e.g. home/bandit13/sshkey.private instead of /home/bandit13/sshkey.private). That path error caused the client not to find the key file.
 - _bandit14@localhost_ means “connect to user bandit14 on the same server (loopback).”
 - This works from the bandit13 account because sshkey.private is readable by bandit13 and is authorized for bandit14.
-- The ownership and permissions of the private key file in /home/bandit13 don’t matter for the authentication process itself.
