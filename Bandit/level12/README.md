@@ -39,6 +39,7 @@ At each stage, this indicated whether the file was gzip, bzip2, tar, etc.
 Depending on the file type, I used the appropriate tool:
 
  - For gzip:
+	
 	*mv file1 file1.gz*
 
 	*gzip -d file1.gz*
