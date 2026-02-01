@@ -84,7 +84,7 @@ ssh -i /home/bandit13/sshkey.private bandit14@localhost -p 2220
 	- The key is readable by bandit13
 	- The corresponding public key is authorized for bandit14
 
-# Change in Behavior (Observed Later)
+## Change in Behavior (Observed Later)
 
 When attempting this level again months later, direct SSH from bandit13 to bandit14 no longer worked.
 
@@ -98,13 +98,13 @@ Hardening the environment to prevent local SSH chaining
 
 Since Bandit is a live wargame, its internal configuration may change over time even if the level description remains the same.
 
-# Alternative Solution (Using SCP)
+## Alternative Solution (Using SCP)
 
 To work around this, the private key was copied to the local machine using scp:
 
 scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .
 
-# SSH Key Permission Issue
+## SSH Key Permission Issue
 
 Attempting to use the key resulted in the following warning:
 
@@ -119,13 +119,13 @@ SSH requires private keys to be readable only by the owner.
 Resulting permissions:
 
 	-rwx------
-# Logging in as bandit14 (From Local Machine)
+## Logging in as bandit14 (From Local Machine)
 
 With correct permissions:
 
 	ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 
-# Retrieving the Password
+## Retrieving the Password
 
 Once logged in as bandit14, the password for the next level is stored in:
 
