@@ -37,12 +37,13 @@ This tool allows establishing a raw TLS connection to a server and manually send
 
 The password for `bandit15` is:
 
-```text
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 This password was sent to the service using the following command:
 
 	echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -connect localhost:30001 -ign_eof
+
+---
 
 ## Command Breakdown
 
@@ -71,6 +72,8 @@ This approach was guided by the following reference:
 
 	- https://stackoverflow.com/questions/23352152/how-to-send-a-string-to-server-using-s-client
 
+---
+
 ## Output
 
 The server responded with:
@@ -87,6 +90,8 @@ The server responded with:
 The password for _bandit16_ is:
 
 	kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+---
 
 ## Alternative Solution Using Netcat (ncat)
 
